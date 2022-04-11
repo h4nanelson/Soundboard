@@ -1,0 +1,46 @@
+/* Font */
+@import url("https://use.typekit.net/sfy2brc.css");
+
+/* Set Fonts and Resets */
+body {
+  background-color: #576a55 ;
+  font-family: ronnia, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+kbd {
+  font-family: ronnia, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 4em;
+  color: #284451;
+}
+
+.sound {
+  font-size: 1.25em;
+  color: #284451;
+}
+
+/* CSS Grid */
+.keys {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Squares */
+.key {
+  margin: 1em;
+  font-size: 1em;
+  padding: 2em;
+  width: 8em;
+  text-align: center;
+  background-color: #BD9A7A;
+  border-radius: 10%;
+}
+
+div:hover {
+  background: #8e683b; 
+  transition-duration: .20s;
+  cursor: pointer;
+}

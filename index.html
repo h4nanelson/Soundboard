@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Soundboard</title>
+  <link rel="stylesheet" href="./styles.css">
+
+  <script defer src="./scripts.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Container for all the keys and sounds   -->
+  <main class="keys">
+
+    <!-- Individual Keys -->
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">Birds</span>
+    </div>
+
+    <div data-key="66" class="key">
+      <kbd>B</kbd>
+      <span class="sound">Rain</span>
+    </div>
+
+    <div data-key="67" class="key">
+      <kbd>C</kbd>
+      <span class="sound">Meadow</span>
+    </div>
+
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">Thunderstorm</span>
+    </div>
+
+    <div data-key="69" class="key">
+      <kbd>E</kbd>
+      <span class="sound">Chimes</span>
+    </div>
+
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">Forest</span>
+    </div>
+
+  </main>
+
+  <!-- Sound Files -->
+  <audio data-key="65" src="assets/birdchirps.mp3"></audio>
+  <audio data-key="66" src="assets/rain.mp3"></audio>
+  <audio data-key="67" src="assets/summermeadow.mp3"></audio>
+  <audio data-key="68" src="assets/thunderstorm.mp3"></audio>
+  <audio data-key="69" src="assets/windchimes.mp3"></audio>
+  <audio data-key="70" src="assets/forest.mp3"></audio>
+
+</body>
+
+</html>
